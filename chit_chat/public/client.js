@@ -1,4 +1,4 @@
-const socket = io.connect('http://localhost:3000');
+const socket = io.connect('https://chat-ss1q.onrender.com/');
 
 var chats=document.querySelector(".chats");
 var roomMessage=document.querySelector(".title");
